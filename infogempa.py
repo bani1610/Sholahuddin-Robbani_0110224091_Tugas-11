@@ -1,0 +1,18 @@
+from gempa import *
+
+gempa1 = Gempa("banten", 1.2)
+gempa2 = Gempa("Palu", 6.1)
+gempa3 = Gempa("Cianjur", 5.6)
+gempa4 = Gempa("jayapura", 3.3)
+gempa5 = Gempa("Garut", 4.0)
+print("Info gempa masseh")
+print()
+gempa1.Dampak()
+print()
+gempa2.Dampak()
+print()
+gempa3.Dampak()
+print()
+gempa4.Dampak()
+print()
+gempa5.Dampak()
